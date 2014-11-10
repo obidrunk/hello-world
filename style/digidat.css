@@ -1,9 +1,75 @@
-.header h1 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 24px;
-	color: white;
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body {
+	font-family: "Trebuchet MS",Helvetica,sans-serif;
+}
+h2 {
+	font-size: 20px;
+	border-bottom: 1px solid #999999;
+	padding-bottom: 5px;
+	margin:20px 0 20px 0;
+}
+p {
+	font-size: 15px;
+	text-align: justify;
+}
+.mainTitle {
+	padding: 40px 0 10px 0 ;
+	background-color: darkred;
+	border-bottom: 1px solid white;
+}
+.mainTitle h1 {
+	font-size: 30px;
+	color: #cccccc;
 	text-align: center;
-	background-color: blue;
-	height: 40px;
+}
+.mainMenu {
+	background-color: darkred;
+}
+.mainMenu ul {
+	list-style: none;
+	text-align: center;
+	color: white;
+	padding: 5px 0 5px 0;
+}
+.mainMenu li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+	font-size: 15px;
+	color: #aaaaaa;
+	text-decoration: bold;
+}
+.mainMenu li:hover{
+	color:white;
+	background-color: black;
+}
+.content{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content h2,p {
+	color:grey;
+}
 
+.content p {
+	padding-left: 10px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	height: 30px;
+	background: darkred;
+}
+.footer p {
+	font-size: 12px;
+	text-align: center;
+	text-decoration: bold;
+	color: white;
+	padding-top: 5px;
 }

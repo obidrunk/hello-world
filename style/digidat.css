@@ -46,16 +46,16 @@ nav li:hover{
 	color:white;
 	background-color: black;
 }
-section{
+.main {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
-section h2,p {
+.main h2,p {
 	color:grey;
 }
 
-section p {
+.main p {
 	padding-left: 10px;
 }
 

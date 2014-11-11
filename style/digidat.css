@@ -16,57 +16,57 @@ p {
 	font-size: 15px;
 	text-align: justify;
 }
-.mainTitle {
+header {
 	padding: 40px 0 10px 0 ;
 	background-color: darkred;
 	border-bottom: 1px solid white;
 }
-.mainTitle h1 {
+header h1 {
 	font-size: 30px;
 	color: #cccccc;
 	text-align: center;
 }
-.mainMenu {
+nav {
 	background-color: darkred;
 }
-.mainMenu ul {
+nav ul {
 	list-style: none;
 	text-align: center;
 	color: white;
 	padding: 5px 0 5px 0;
 }
-.mainMenu li {
+nav li {
 	display: inline;
 	padding: 5px 10px 5px 10px;
 	font-size: 15px;
 	color: #aaaaaa;
 	text-decoration: bold;
 }
-.mainMenu li:hover{
+nav li:hover{
 	color:white;
 	background-color: black;
 }
-.content{
+section{
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.content h2,p {
+section h2,p {
 	color:grey;
 }
 
-.content p {
+section p {
 	padding-left: 10px;
 }
 
-.footer {
+footer {
 	position: absolute;
 	bottom: 0;
 	width:100%;
 	height: 30px;
 	background: darkred;
 }
-.footer p {
+footer p {
 	font-size: 12px;
 	text-align: center;
 	text-decoration: bold;
